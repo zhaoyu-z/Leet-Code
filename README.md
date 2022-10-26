@@ -7,6 +7,6 @@ VSCODE的力扣插件： [链接](https://github.com/LeetCode-OpenSource/vscode-
 
 你也可以在下载好VSCODE之后在此图的地方安装插件：
 
-![VSCODE Leetcode Extension Position](1.png "Install Leetcode Extension")
+![VSCODE Leetcode Extension Position](Images/1.png "Install Leetcode Extension")
 
 使用教程请参考： [教程](https://github.com/LeetCode-OpenSource/vscode-leetcode/blob/master/README.md)
