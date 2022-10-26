@@ -36,7 +36,7 @@ P     I
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q6 {
+class Q6 {
     public String convert(String s, int numRows) {
         if(numRows < 2 || numRows > s.length()) return s;
 

@@ -46,7 +46,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 输出: 1994
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
-public class Q13 {
+class Q13 {
     public int romanToInt(String s) {
         Map<Character, Integer> romans = new HashMap<>(); // 跟上一题类似
         romans.put('M',1000);

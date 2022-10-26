@@ -19,7 +19,7 @@ import java.util.Arrays;
 输入：nums = [0,0,0], target = 1
 输出：0
  */
-public class Q16 {
+class Q16 {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length;
         Arrays.sort(nums);

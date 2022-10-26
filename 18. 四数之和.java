@@ -19,7 +19,7 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
 输入：nums = [2,2,2,2,2], target = 8
 输出：[[2,2,2,2]]
  */
-public class Q18 {
+class Q18 {
     /*
     排序+双指针
      */

@@ -18,7 +18,7 @@ import java.util.*;
 输入：digits = "2"
 输出：["a","b","c"]
  */
-public class Q17 {
+class Q17 {
     /*
     方法一：递归
      */

@@ -19,7 +19,7 @@ import java.util.Map;
 输出: 2
 解释: 链表中，0 和 1 是相连接的，3 和 4 是相连接的，所以 [0, 1] 和 [3, 4] 是两个组件，故返回 2。
  */
-public class Q817 {
+class Q817 {
     public int numComponents(ListNode head, int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 

@@ -61,7 +61,7 @@ import java.math.BigInteger;
 解析得到整数 4193 。
 由于 "4193" 在范围 [-231, 231 - 1] 内，最终结果为 4193 。
  */
-public class Q8 {
+class Q8 {
     public int myAtoi(String s) {
         if (s == null || s.length() == 0) return 0;
 

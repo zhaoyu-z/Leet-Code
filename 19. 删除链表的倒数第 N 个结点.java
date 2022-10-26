@@ -14,7 +14,7 @@
 输入：head = [1,2], n = 1
 输出：[1]
  */
-public class Q19 {
+class Q19 {
     // 快慢指针
     public ListNode removeNthFromEnd(ListNode head, int n) {
 

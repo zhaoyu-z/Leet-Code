@@ -23,7 +23,7 @@ import java.util.Map;
 输入：nums = [3,3], target = 6
 输出：[0,1]
  */
-public class Q1 {
+class Q1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(); // map里面key是数字，value是下标
         for (int i = 0; i < nums.length; ++i) {

@@ -13,7 +13,7 @@
  */
 import java.util.Arrays;
 
-public class Q349 {
+class Q349 {
     /*
     排序加双指针
      */

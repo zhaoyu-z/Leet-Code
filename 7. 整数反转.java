@@ -23,7 +23,7 @@
 输入：x = 0
 输出：0
  */
-public class Q7 {
+class Q7 {
     public int reverse(int x) {
         int flag = -1; // 是否是负数
         StringBuilder sb;

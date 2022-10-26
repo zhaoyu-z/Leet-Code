@@ -19,7 +19,7 @@
 输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 输出：[8,9,9,9,0,0,0,1]
  */
-public class Q2 {
+class Q2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(l1.val + l2.val); // 先把第一个数加起来当做head
         ListNode cur = res; // 一个iterator, 从head开始
@@ -39,12 +39,4 @@ public class Q2 {
         }
         return res;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

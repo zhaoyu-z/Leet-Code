@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 /*
 15. 三数之和
@@ -29,7 +30,7 @@ nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0 。
 输出：[[0,0,0]]
 解释：唯一可能的三元组和为 0 。
  */
-public class Q15 {
+class Q15 {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
         Arrays.sort(nums); // 排序双指针，这样当和大于或小于目标值时，可以超某个方向固定移动指针
@@ -57,6 +58,6 @@ public class Q15 {
                 }
             }
         }
-        return ans.stream().toList(); // set to list
+        return ans.stream().collect(Collectors.toList()); // set to list
     }
 }

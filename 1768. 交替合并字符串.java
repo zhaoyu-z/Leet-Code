@@ -28,7 +28,7 @@ word1：  a   b   c   d
 word2：    p   q
 合并后：  a p b q c   d
  */
-public class Q1768 {
+class Q1768 {
     // 双指针
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb = new StringBuilder();

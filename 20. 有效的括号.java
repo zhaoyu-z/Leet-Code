@@ -25,7 +25,7 @@ import java.util.Stack;
 输入：s = "(]"
 输出：false
  */
-public class Q20 {
+class Q20 {
     public boolean isValid(String s) {
         Map<Character, Character> map = new HashMap<>(); // 括号对应
         map.put(')', '(');

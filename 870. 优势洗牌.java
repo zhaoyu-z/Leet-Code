@@ -14,7 +14,7 @@ import java.util.*;
 输入：nums1 = [12,24,8,32], nums2 = [13,25,32,11]
 输出：[24,32,8,12]
  */
-public class Q870 {
+class Q870 {
     public int[] advantageCount(int[] nums1, int[] nums2) {
         int n = nums1.length;
         Integer[] idx = new Integer[n]; // nums2索引

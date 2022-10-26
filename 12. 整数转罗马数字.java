@@ -46,7 +46,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 输出: "MCMXCIV"
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
-public class Q12 {
+class Q12 {
     public String intToRoman(int num) {
         Map<Integer, String> map = new LinkedHashMap<>(); // 把数字和罗马数字对应
         map.put(1000, "M");
