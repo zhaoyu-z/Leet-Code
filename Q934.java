@@ -4,6 +4,11 @@
  * [934] 最短的桥
  */
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
+
 // @lc code=start
 class Solution {
     int[][] directions = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
